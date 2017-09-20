@@ -1,0 +1,59 @@
+body, html {
+  height: 100%;
+  font-family: 'Roboto Mono', monospace;
+  margin: 0;
+}
+
+.imgflex1 {
+  position: absolute;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 1rem;
+  padding: 2rem;
+  font-weight: lighter;
+}
+
+p {
+  padding: 0rem;
+}
+
+.btn {
+  display: inline-block;
+  font-size: .75rem;
+  background-color: #fff;
+  color: #000;
+  border: none;
+
+  border-radius: 2rem;
+
+  padding: 1rem;
+  margin: .5rem;
+
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #ffdd00;
+  color: #000;
+}
+
+@media only screen and (min-width: 35em) {
+
+  p {
+    padding: 2rem;
+  }
+
+
+
+}
